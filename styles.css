@@ -523,7 +523,16 @@ footer{
     .crd-p,.crd-btn,.first,.second,.third{
         font-size: 0.5rem;
     }
-
+    
+    .crd-hed{
+        margin-bottom: 2%;
+    }
+    .winners{
+        padding-bottom: 2%;
+    }
+    .crd-btn{
+        margin-top: 0;
+    }
     #info{
         display: block;
     }
@@ -545,7 +554,7 @@ footer{
         font-size: 1rem;
     }
     .nav-logo{
-        width: 17.5%;
+        width: 25%;
     }
 
     #title,#info,#events{
