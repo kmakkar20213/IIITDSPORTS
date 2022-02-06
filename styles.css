@@ -510,3 +510,29 @@ footer{
         margin: 2% 27.5% 0;
     }
 }
+
+@media (max-width:800px) {
+    .intro,.colab-hed{
+        font-size: 3rem;
+    }
+
+    .crd-hed,.info-hed{
+        font-size: 1.25rem;
+    }
+
+    .crd-p,.crd-btn,.first,.second,.third{
+        font-size: 0.5rem;
+    }
+
+    .colab-btn,.nav-link,.info-p{
+        font-size: 1rem;
+    }
+    .nav-logo{
+        width: 17.5%;
+    }
+
+    #title,#info,#events{
+        padding: 5% 7.5% ;
+    }
+    
+}
