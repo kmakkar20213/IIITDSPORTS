@@ -15,3 +15,11 @@ $(window).scroll(function(){
 $(".nav-logo").click(function(){
     $(window).scrollTop(0);
 })
+
+$(".nav-link").click(function(e){
+    e.preventDefault();
+    $("body,html").animate({
+        scrollTop: $(this.hash).offset().top
+    },700)
+    setTimeout(function(){navbar.slideUp()} , 700);
+})
