@@ -21,5 +21,5 @@ $(".nav-link").click(function(e){
     $("body,html").animate({
         scrollTop: $(this.hash).offset().top
     },700)
-    setTimeout(function(){navbar.slideUp()} , 700);
+    setTimeout(function(){navbar.slideUp()} , 800);
 })
