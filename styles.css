@@ -223,6 +223,7 @@ nav{
 .crd-p{
     font-size: 0.9rem;
     transform: scale(1.25);
+    margin-bottom:15%;
     transition: all ease-in 250ms;
    
 }
@@ -230,6 +231,7 @@ nav{
 .crd-hed{
     font-size: 2rem;
     transform: translateY(-100%);
+    margin: 0;
     transition: all ease-in 250ms;
 }
 
