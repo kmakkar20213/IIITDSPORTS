@@ -12,6 +12,10 @@ body{
     font-weight: 500;
 }
 
+a{
+    text-decoration: none;
+}
+
 hr{
     margin: 0;
 }
